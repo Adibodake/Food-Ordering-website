@@ -1,0 +1,41 @@
+employees
+			{
+			font-size:80%;
+			margin:0.5em;
+			font-family: Verdana;
+			display:block;
+			}
+employee {
+			display:block;
+			border: 1px solid silver;
+			margin:0.5em;
+			padding:0.5em;
+			background-color:whitesmoke;
+			}
+id {
+	display:block;
+	font-weight:bolder;
+	text-align:center;
+	font-size:30px;
+	background-color: #fac031;
+	color: white;
+
+	}
+id, name, salary {
+								display:block;
+								text-align:center;
+								}
+id {
+	color:rgb(156, 15, 76);
+	text-decoration: underline ;
+	font-weight:bolder;
+	font-size:20px;
+	}
+name {
+	color:#192a56;
+    font-weight:bold;
+	}
+salary {
+    font-weight:bold;
+	color:purple;
+	}
