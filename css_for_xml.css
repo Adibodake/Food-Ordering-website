@@ -22,7 +22,7 @@ id {
 
 	}
 id, name, salary {
-								display:block;
+								display:inline;
 								text-align:center;
 								}
 id {
