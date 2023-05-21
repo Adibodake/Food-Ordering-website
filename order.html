@@ -57,7 +57,7 @@
             <img src="images2/order_image.png">
         </div>
 
-        <form name="myForm" action="" onsubmit="return validateForm()" method="post">
+        <form name="myForm" action="order.php" onsubmit="return validateForm()">
 
             <div class="input">
                 <p>Name</p>
@@ -66,30 +66,30 @@
 
             <div class="input">
                 <p>Email</p>
-                <input type="email" name="email" placeholder="your email" required>
+                <input type="text" name="email" placeholder="your email">
             </div>
 
             <div class="input">
-                <p>Phone Number</p>
-                <input type="phonenumber" name="phonenumber" placeholder="your number" required>
+                <p>Mobile Number</p>
+                <input placeholder="your number" type="text" name="mob">
             </div>
 
             <div class="input">
                 <p>How Much</p>
-                <input type="number" placeholder="how many order" required>
+                <input type="text" placeholder="how many order" name="quantity">
             </div>
 
             <div class="input">
                 <p>You Order</p>
-                <input type="text" name="your_order" placeholder="food name" required>
+                <input placeholder="food name" type="text" name="order">
             </div>
 
             <div class="input">
                 <p>Address</p>
-                <input type="text" name="your_address" placeholder="your Address" required>
+                <input placeholder="your Address" type="text" name="address">
             </div>
 
-            <button type="submit" class="btn ">Order Now</a>
+            <input type="submit" class="btn btn-primary" value="order">
 
         </form>
 
